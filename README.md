@@ -77,13 +77,13 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
          ### With Successful Login: 
          Response:
             {
-            token: generated_token as value
+            token: "generated_token as a value"
             }
 
          ### If user not registered:
          Response: 
             {
-            error: Invalid Credential
+            error: "Invalid Credentials"
             }
 
 ### 3. **Add a New Transaction**
