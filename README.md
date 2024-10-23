@@ -27,5 +27,9 @@ This project provides a RESTful API for managing personal financial records. Use
    git clone https://github.com/RupendraCHA/Flow_Ai_Assignment.git
 2. **Navigate to the project directory:**
   ```bash
-  cd financial-records-api
+  cd backend
+
+3. **Install dependencies:**
+
+
 
