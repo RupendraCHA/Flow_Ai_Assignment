@@ -50,13 +50,17 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "username": "abc",
               "password": "123456789",
             }
-### 1. **Logining as a registered User**
+### 2. **Logining as a registered User**
    #### Endpoint: POST /login
    #### Description: Logining as a user.
          Request Body:
             {
               "username": "abc",
               "password": "123456789",
+            }
+         Response:
+            {
+            token: generated_token as value
             }
 
 ### 3. **Add a New Transaction**
