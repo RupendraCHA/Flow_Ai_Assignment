@@ -50,6 +50,21 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "username": "abc",
               "password": "123456789",
             }
+
+         ### If Registration is Successful:
+         
+         Response:
+            {
+            message: "User registered successfully!"
+            }
+
+         ### If same user again try to register:
+
+         Response:
+            {
+            error: error.message
+            }
+         
 ### 2. **Logining as a registered User**
    #### Endpoint: POST /login
    #### Description: Logining as a user.
@@ -58,10 +73,17 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "username": "abc",
               "password": "123456789",
             }
-            
+
+         ### With Successful Login: 
          Response:
             {
             token: generated_token as value
+            }
+
+         ### If user not registered:
+         Response: 
+            {
+            error: Invalid Credential
             }
 
 ### 3. **Add a New Transaction**
@@ -90,6 +112,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              "_id": "671844a54882d4f2d088d1aa",
              "__v": 0
             }
+         
 ### **4. Get All Transactions:**
    #### Endpoint: GET /transactions
    #### Description: Retrieves all transactions.
@@ -168,7 +191,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              
             Response:
                {
-                 "message": "Transaction deleted successfully"
+                 "message": "Transaction deleted"
                }
 
 
