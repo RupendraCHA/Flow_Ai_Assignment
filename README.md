@@ -110,6 +110,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
 ### 5. Get Transaction by ID
    #### Endpoint: GET /transactions/:id
    #### Description: Retrieves a transaction by its ID.
+            Headers: 
+            toke: token_value is given in the headers which is generated after succesful login
+            
             Response:
             {
               "_id": "60f69b2e9f1c4b0d54cfae12",
