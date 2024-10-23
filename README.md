@@ -74,6 +74,18 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "date": "2024-10-20",
               "description": "Monthly salary"
             }
+
+         Response:
+            {
+             "userId": "6717ec87112ea59e5496d0d2",
+             "type": "income",
+             "category": "Salary",
+             "amount": 15000,
+             "date": "2023-10-01T00:00:00.000Z",
+             "description": "Monthly salary",
+             "_id": "671844a54882d4f2d088d1aa",
+             "__v": 0
+            }
    
 
 
