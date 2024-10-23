@@ -86,6 +86,21 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              "_id": "671844a54882d4f2d088d1aa",
              "__v": 0
             }
+### **4. Get All Transactions:**
+   #### Endpoint: GET /transactions
+   #### Description: Retrieves all transactions.
+            Response:
+            [
+              {
+                "_id": "60f69b2e9f1c4b0d54cfae12",
+                "type": "expense",
+                "category": "Groceries",
+                "amount": 200,
+                "date": "2024-10-20",
+                "description": "Weekly groceries"
+              },
+              { ... }
+            ]
    
 
 
