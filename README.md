@@ -97,15 +97,28 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             token: token_value is given in the headers which is generated after succesful login
             
             Response:
-            [
-              {
-                "_id": "60f69b2e9f1c4b0d54cfae12",
-                "type": "expense",
-                "category": "Groceries",
-                "amount": 200,
-                "date": "2024-10-20",
-                "description": "Weekly groceries"
-              },
+              [
+                {
+                    "_id": "6717fb6ef5d0d924a6d2a8e9",
+                    "userId": "6717ec87112ea59e5496d0d2",
+                    "type": "expense",
+                    "category": "ElectronicItems",
+                    "amount": 10000,
+                    "date": "2023-10-01T00:00:00.000Z",
+                    "description": "Refrigirator Repair",
+                    "__v": 0
+                },
+                {
+                    "_id": "671844a54882d4f2d088d1aa",
+                    "userId": "6717ec87112ea59e5496d0d2",
+                    "type": "income",
+                    "category": "Salary",
+                    "amount": 5000,
+                    "date": "2023-10-01T00:00:00.000Z",
+                    "description": "Monthly salary",
+                    "__v": 0
+                }
+            
               { ... }
             ]
 ### 5. Get Transaction by ID
@@ -116,12 +129,14 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             
             Response:
             {
-              "_id": "60f69b2e9f1c4b0d54cfae12",
-              "type": "expense",
-              "category": "Groceries",
-              "amount": 200,
-              "date": "2024-10-20",
-              "description": "Weekly groceries"
+             "_id": "6717fb6ef5d0d924a6d2a8e9",
+             "userId": "6717ec87112ea59e5496d0d2",
+             "type": "expense",
+             "category": "ElectronicItems",
+             "amount": 10000,
+             "date": "2023-10-01T00:00:00.000Z",
+             "description": "Refrigirator Repair",
+             "__v": 0
             }
 
 
