@@ -42,9 +42,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    npm start
 
 # API Endpoints
-## 1. **Add a New Transaction**
-   - Endpoint: POST /transactions
-   - Description: Adds a new income or expense transaction.
+### 1. **Add a New Transaction**
+   #### Endpoint: POST /transactions
+   #### Description: Adds a new income or expense transaction.
          Request Body:
             {
               "type": "income",
