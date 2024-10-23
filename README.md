@@ -21,15 +21,25 @@ This project provides a RESTful API for managing personal financial records. Use
 - **ODM (Object-Document Mapping)**: Mongoose
 
 ## Installation
-
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/RupendraCHA/Flow_Ai_Assignment.git
 2. **Navigate to the project directory:**
-  ```bash
-  cd backend
+   ```bash
+   cd backend
+3. **Install Dependencies:**
+   ```bash
+   npm install
+4. **Database Setup:**
+Make sure you have MongoDB installed and running locally, or set up a cloud instance like MongoDB Atlas.
+   ```bash
+   MONGO_URI=mongodb://localhost:27017/financial_records_db
+Alternatively, for MongoDB Atlas:
+   ```bash
+   MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/financial_records_db?retryWrites=true&w=majority
+   
 
-3. **Install dependencies:**
+
 
 
 
