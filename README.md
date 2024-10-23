@@ -41,6 +41,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    ```bash
    npm start
 
+# Published Link for the Collection of API Endpoints using Postman:
+ Published Link: https://documenter.getpostman.com/view/33016734/2sAY4rDPvD#f9106598-13e4-4a10-842d-0bf549bcab37
+
 # **API Endpoints:**
 ### 1. **Registering User**
    #### Endpoint: POST /register
