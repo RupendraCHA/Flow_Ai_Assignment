@@ -24,7 +24,7 @@ This project provides a RESTful API for managing personal financial records. Use
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/financial-records-api.git
+   git clone https://github.com/RupendraCHA/Flow_Ai_Assignment.git
 2. **Navigate to the project directory:**
   ```bash
   cd financial-records-api
