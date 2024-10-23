@@ -205,6 +205,14 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "totalExpenses": 3200,
               "balance": 1800
             }
+
+# Challenges:
+Data Validation: Ensuring accurate and valid data entry for transactions (e.g., type, amount, category).
+
+Efficient Queries: Implementing optimized queries for retrieving filtered transaction data and summaries.
+
+Error Management: Handling errors such as incorrect transaction IDs or invalid input.
+
 # Summary
 This project is a RESTful API for managing personal finances. Users can add and track income or expense transactions, view their transaction history, and generate summaries by type. Built with Node.js, Express.js, and MongoDB, the API leverages Mongoose for structured data management.
 
