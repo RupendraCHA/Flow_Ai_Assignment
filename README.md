@@ -70,7 +70,10 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             {
             error: error.message
             }
-         
+            
+![Registering User](https://github.com/user-attachments/assets/10742298-efdd-496e-ae0f-d446e7de1733)
+
+
 ### 2. **Logining as a registered User**
    #### Endpoint: POST /login
    #### Description: Logining as a user.
@@ -91,6 +94,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             {
             error: "Invalid Credentials"
             }
+            
+![Login in as User](https://github.com/user-attachments/assets/157ce8f5-947e-4805-a36c-304e9d07b1cf)
+
 
 ### 3. **Add a New Transaction**
    #### Endpoint: POST /transactions
@@ -118,6 +124,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              "_id": "671844a54882d4f2d088d1aa",
              "__v": 0
             }
+
+![Adding Transaction](https://github.com/user-attachments/assets/6042782d-4a31-4f99-b0c5-b467c98e23ee)
+
          
 ### **4. Get All Transactions:**
    #### Endpoint: GET /transactions
@@ -150,6 +159,10 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             
               { ... }
             ]
+
+![Getting All Transactions](https://github.com/user-attachments/assets/952ba360-49dd-4486-af5e-59c555c63f94)
+
+
 ### 5. Get Transaction by ID
    #### Endpoint: GET /transactions/:id
    #### Description: Retrieves a transaction by its ID.
@@ -167,6 +180,10 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              "description": "Refrigirator Repair",
              "__v": 0
             }
+
+![Transaction by ID](https://github.com/user-attachments/assets/20f3647b-17d5-44e0-a7a9-175a88173f8f)
+
+
 ### **6. Update Transaction by ID:**
    #### Endpoint: PUT /transactions/:id
    #### Description: Updates a transaction by ID.
@@ -189,6 +206,10 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              "description": "Refrigirator Repair",
              "__v": 0
             }
+
+![Updating Transaction by ID](https://github.com/user-attachments/assets/961d892a-e226-421d-a1a3-8eda66481982)
+
+
 ### 7. Delete Transaction by ID
    #### Endpoint: DELETE /transactions/:id
    #### Description: Deletes a transaction by ID.
@@ -199,6 +220,10 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
                {
                  "message": "Transaction deleted"
                }
+
+![Deleting Transaction by ID](https://github.com/user-attachments/assets/caba0dec-bf77-4c11-b9fd-08eb29c33a77)
+
+
 ### 8. Get Transaction Summary
    #### Endpoint: GET /summary
    #### Description: Retrieves a summary of total income, total expenses, and balance.
@@ -211,6 +236,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "totalExpenses": 3200,
               "balance": 1800
             }
+
+![Summary of User Transactions](https://github.com/user-attachments/assets/667c6c88-9012-42d5-9f0b-3a60c07e8140)
+
 
 # Challenges:
 **Data Validation:** Ensuring accurate and valid data entry for transactions (e.g., type, amount, category).
