@@ -41,8 +41,25 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    ```bash
    npm start
 
-# API Endpoints
-### 1. **Add a New Transaction**
+# **API Endpoints:**
+### 1. **Registering User**
+   #### Endpoint: POST /register
+   #### Description: Registers as a new user.
+         Request Body:
+            {
+              "username": "abc",
+              "password": "123456789",
+            }
+### 1. **Logining as a registered User**
+   #### Endpoint: POST /login
+   #### Description: Logining as a user.
+         Request Body:
+            {
+              "username": "abc",
+              "password": "123456789",
+            }
+
+### 3. **Add a New Transaction**
    #### Endpoint: POST /transactions
    #### Description: Adds a new income or expense transaction.
          Request Body:
