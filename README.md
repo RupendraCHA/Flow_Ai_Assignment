@@ -58,6 +58,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
               "username": "abc",
               "password": "123456789",
             }
+            
          Response:
             {
             token: generated_token as value
@@ -67,7 +68,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    #### Endpoint: POST /transactions
    #### Description: Adds a new income or expense transaction.
          Headers: 
-            toke: token_value is given in the headers which is generated after succesful login
+            token: token_value is given in the headers which is generated after succesful login
             
          Request Body:
             {
@@ -93,7 +94,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    #### Endpoint: GET /transactions
    #### Description: Retrieves all transactions.
             Headers: 
-            toke: token_value is given in the headers which is generated after succesful login
+            token: token_value is given in the headers which is generated after succesful login
             
             Response:
             [
@@ -111,7 +112,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    #### Endpoint: GET /transactions/:id
    #### Description: Retrieves a transaction by its ID.
             Headers: 
-            toke: token_value is given in the headers which is generated after succesful login
+            token: token_value is given in the headers which is generated after succesful login
             
             Response:
             {
