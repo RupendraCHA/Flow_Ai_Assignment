@@ -1,6 +1,8 @@
 # Personal Expense Tracker Backend RESTful API Project
+
 ### Published backend web service URL on Render: 
 https://personel-expense-tracker-backend.onrender.com/
+
 ## Overview
 This project provides a RESTful API for managing personal financial records. Users can record their income and expenses, retrieve past transactions, and get summaries for totalIncome and totalExpenses, filtered by type. The API is built using Node.js and Express.js, with MongoDB as the database solution.
 
