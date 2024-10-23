@@ -20,4 +20,12 @@ This project provides a RESTful API for managing personal financial records. Use
 - **Database**: MongoDB (NoSQL)
 - **ODM (Object-Document Mapping)**: Mongoose
 
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/financial-records-api.git
+2. **Navigate to the project directory:**
+  ```bash
+  cd financial-records-api
 
