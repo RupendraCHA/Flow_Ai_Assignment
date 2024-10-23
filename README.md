@@ -146,15 +146,16 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             
             Request Body (example of updating the amount):
             {
-              "amount": 250
+              "amount": 2050
             }
+            
             Response:
             {
              "_id": "6717fb6ef5d0d924a6d2a8e9",
              "userId": "6717ec87112ea59e5496d0d2",
              "type": "expense",
              "category": "ElectronicItems",
-             "amount": 10000,
+             "amount": 2050,
              "date": "2023-10-01T00:00:00.000Z",
              "description": "Refrigirator Repair",
              "__v": 0
