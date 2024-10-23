@@ -40,6 +40,20 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
 5. **Start the application:**
    ```bash
    npm start
+
+# API Endpoints
+1. Add a New Transaction
+Endpoint: POST /transactions
+Description: Adds a new income or expense transaction.
+Request Body:
+json
+{
+  "type": "income",
+  "category": "Salary",
+  "amount": 1500,
+  "date": "2024-10-20",
+  "description": "Monthly salary"
+}
    
 
 
