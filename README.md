@@ -18,6 +18,6 @@ This project provides a RESTful API for managing personal financial records. Use
 
 - **Backend**: Node.js with Express.js
 - **Database**: MongoDB (NoSQL)
-- **ODM**: Mongoose
+- **ODM (Object-Document Mapping)**: Mongoose
 
 
