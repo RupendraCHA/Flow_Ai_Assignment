@@ -193,6 +193,18 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
                {
                  "message": "Transaction deleted"
                }
+### 8. Get Transaction Summary
+   #### Endpoint: GET /summary
+   #### Description: Retrieves a summary of total income, total expenses, and balance.
+            Headers: 
+             token: token_value is given in the headers which is generated after succesful login
+             
+            Response:
+            {
+              "totalIncome": 5000,
+              "totalExpenses": 3200,
+              "balance": 1800
+            }
 
 
 
