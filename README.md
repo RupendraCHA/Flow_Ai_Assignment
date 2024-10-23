@@ -37,6 +37,9 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    
    Alternatively, for MongoDB Atlas:
    MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/financial_records_db?retryWrites=true&w=majority
+5. **Start the application:**
+   ```bash
+   npm start
    
 
 
