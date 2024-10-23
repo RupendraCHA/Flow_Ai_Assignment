@@ -160,6 +160,16 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
              "description": "Refrigirator Repair",
              "__v": 0
             }
+### 7. Delete Transaction by ID
+   #### Endpoint: DELETE /transactions/:id
+   #### Description: Deletes a transaction by ID.
+             Headers: 
+             token: token_value is given in the headers which is generated after succesful login
+             
+            Response:
+               {
+                 "message": "Transaction deleted successfully"
+               }
 
 
 
