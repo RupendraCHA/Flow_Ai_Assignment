@@ -35,8 +35,7 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
    ```bash
    MONGO_URI=mongodb://localhost:27017/financial_records_db
    
-   **Alternatively, for MongoDB Atlas:**
-   ```bash
+   Alternatively, for MongoDB Atlas:
    MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/financial_records_db?retryWrites=true&w=majority
    
 
