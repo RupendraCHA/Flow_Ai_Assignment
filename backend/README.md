@@ -70,7 +70,8 @@ Make sure you have MongoDB installed and running locally, or set up a cloud inst
             {
             error: error.message
             }
-![Screenshot (1102)](https://github.com/user-attachments/assets/72ad305e-0888-4590-b757-31933fa01fce)
+![Registering User](https://github.com/user-attachments/assets/10742298-efdd-496e-ae0f-d446e7de1733)
+
 
          
 ### 2. **Logining as a registered User**
